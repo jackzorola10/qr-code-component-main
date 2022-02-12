@@ -1,0 +1,59 @@
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+
+.card {
+    min-width: 16rem;
+    max-width: 18rem;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 1rem;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.card img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.card h1 {
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+    margin: 1rem 1rem 0 1rem;
+}
+
+.card p {
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+    font-weight: 400;
+    margin: 1rem 1rem 1.5rem 1rem;
+}
+
+/* ######################################### */
+/* ######################################### */
+/* ####### Media Query Sensitives ####### */
+/* ######################################### */
+/* ######################################### */
+
+@media (max-width: 515px) {
+    .card {
+        margin-top: 5vh 
+    }
+}
+
+@media (min-width: 516px) {
+    .card {
+        margin-top: 15vh
+    }
+}
